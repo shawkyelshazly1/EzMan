@@ -1,0 +1,53 @@
+{
+	"userData": [
+		{
+			"firstName": "jennifer",
+			"lastName": "Lopez",
+			"username": "lopez.10",
+			"score": "0.45",
+			"profilePic": "/profile_pic.jpg"
+		},
+		{
+			"firstName": "sara",
+			"lastName": "mils",
+			"username": "saramils.5",
+			"score": "0.39",
+			"profilePic": "/profile_pic.jpg"
+		},
+		{
+			"firstName": "mark",
+			"lastName": "noil",
+			"username": "marknoil.12",
+			"score": "0.25",
+			"profilePic": "/profile_pic.jpg"
+		},
+		{
+			"firstName": "nenci",
+			"lastName": "veilly",
+			"username": "saramils.7",
+			"score": "0.18",
+			"profilePic": "/profile_pic.jpg"
+		},
+		{
+			"firstName": "valy",
+			"lastName": "antonova",
+			"username": "volyantonova.35",
+			"score": "0.11",
+			"profilePic": "/profile_pic.jpg"
+		},
+		{
+			"firstName": "ahmed",
+			"lastName": "mostafa",
+			"username": "mostafa.15",
+			"score": "0.10",
+			"profilePic": "/profile_pic.jpg"
+		},
+		{
+			"firstName": "shawky",
+			"lastName": "ahmed",
+			"username": "shawky.50",
+			"score": "0.05",
+			"profilePic": "/profile_pic.jpg"
+		}
+	]
+}

@@ -13,31 +13,17 @@ export default function NavigationLinks() {
 		<div className="flex flex-col gap-4 w-full">
 			<NavLink
 				style={activeLinkStyle}
-				to={"/"}
+				to={"dashboard"}
 				className="px-4 py-2 text-xl font-normal rounded-full "
 			>
 				Dashboard
 			</NavLink>
 			<NavLink
 				style={activeLinkStyle}
-				to={"/performance"}
-				className="  px-4  py-2 text-xl font-normal rounded-full "
+				to={"users"}
+				className="px-4 py-2 text-xl font-normal rounded-full "
 			>
-				Performance
-			</NavLink>
-			<NavLink
-				style={activeLinkStyle}
-				to={"/leaves"}
-				className="  px-4 py-2 text-xl font-normal rounded-full "
-			>
-				Leaves
-			</NavLink>
-			<NavLink
-				style={activeLinkStyle}
-				to={"/settings"}
-				className="   px-4 py-2 text-xl font-normal rounded-full "
-			>
-				Settings
+				Users Management
 			</NavLink>
 		</div>
 	);

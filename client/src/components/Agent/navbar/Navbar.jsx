@@ -1,6 +1,6 @@
 import React from "react";
 import Logo from "./Logo";
-import NavigationLinks from "./NavigationLinks";
+import NavigationLinks from "../../Admin/navbar/NavigationLinks";
 
 export default function Navbar() {
 	return (
@@ -14,7 +14,8 @@ export default function Navbar() {
 				/>
 				<div className="flex flex-col items-center gap-1">
 					<h1 className="font-medium text-lg">Jeniffer Lopez</h1>
-					<h1 className="text-sm font-light">lopez@brandbooster.com</h1>
+					<h1 className="text-base">@lopez.10</h1>
+					<h1 className="text-sm  text-[#afafb4]">CSR Agent</h1>
 				</div>
 			</div>
 

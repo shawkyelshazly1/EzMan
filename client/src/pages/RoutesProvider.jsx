@@ -2,12 +2,15 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Toaster } from "react-hot-toast";
 import PrivateRouter from "./PrivateRouter";
-import Navbar from "../components/navbar/Navbar";
-import Dashboard from "./Dashboard";
-import Performance from "./Performance";
+import Navbar from "../components/Agent/navbar/Navbar";
+import Dashboard from "./Agent/Dashboard";
+import Performance from "./Agent/Performance";
 import Leaves from "./Leaves";
 import Settings from "./Settings";
-import Logo from "../components/navbar/Logo";
+import AdminPrivateRouter from "./AdminPrivateRouter";
+import AdminDashboard from "./Admin/AdminDashboard";
+import AdminNavbar from "../components/Admin/navbar/AdminNavbar";
+import UsersManagement from "./Admin/UsersManagement";
 
 export default function RoutesProvider() {
 	return (
@@ -15,6 +18,20 @@ export default function RoutesProvider() {
 			<div className="flex mx-auto min-h-[100vh] w-full items-center justify-center">
 				<Toaster />
 				<Routes>
+					<Route
+						path="/admin/*"
+						element={
+							<AdminPrivateRouter>
+								<div className="h-full  w-full flex flex-row ">
+									<AdminNavbar />
+									<Routes>
+										<Route path="/dashboard" element={<AdminDashboard />} />
+										<Route path="/users" element={<UsersManagement />} />
+									</Routes>
+								</div>
+							</AdminPrivateRouter>
+						}
+					/>
 					<Route
 						path="*"
 						element={

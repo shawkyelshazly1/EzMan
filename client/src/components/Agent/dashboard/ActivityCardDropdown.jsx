@@ -1,11 +1,11 @@
 import React from "react";
 import { Menu } from "@headlessui/react";
 import { FiChevronDown } from "react-icons/fi";
-import data from "../../data.json";
+import data from "../../../data.json";
 
 export default function ActivityCardDropdown({ setAccData, title }) {
 	return (
-		<Menu as="div" className="z-[999] text-left relative flex flex-col gap-2">
+		<Menu as="div" className="z-[9] text-left relative flex flex-col gap-2">
 			<Menu.Button>
 				<div className="flex flex-row items-center gap-2 bg-white rounded-full px-4 py-2 text-lg">
 					{" "}

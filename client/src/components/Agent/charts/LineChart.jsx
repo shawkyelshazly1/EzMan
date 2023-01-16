@@ -7,7 +7,6 @@ export default function LineChart({ data }) {
 			<ResponsiveLine
 				data={data}
 				tooltip={({ point }) => {
-					console.log(point);
 					return (
 						<div
 							style={{
@@ -17,7 +16,7 @@ export default function LineChart({ data }) {
 							}}
 						>
 							<div className="flex flex-col gap-1">
-								<h1 className="font-medium">{point.data.x}</h1>
+								<h1 className="font-medium self-center">{point.data.x}</h1>
 								<h1>
 									{point.serieId}: {`${point.data.y * 100}%`}
 								</h1>

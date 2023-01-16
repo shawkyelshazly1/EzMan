@@ -2,8 +2,9 @@ import React from "react";
 
 export default function PerformanceCard() {
 	return (
-		<div className="bg-[#1d2029] flex flex-col rounded-3xl  lg:p-10 p-4 gap-10 items-center ">
-			<div className="flex flex-row justify-between w-full">
+		<div className="bg-[#1d2029] flex flex-col rounded-3xl  lg:p-10 px-4 gap-10 items-center ">
+			<div className="flex flex-col justify-between w-full">
+				<h1 className="text-[#d2d7ff] text-xl font-semibold self-start">Jan</h1>
 				<h1 className="text-[#d2d7ff] text-3xl font-semibold self-start">
 					Performance
 				</h1>
