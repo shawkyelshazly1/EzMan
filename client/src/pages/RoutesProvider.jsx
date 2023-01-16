@@ -7,6 +7,7 @@ import Dashboard from "./Dashboard";
 import Performance from "./Performance";
 import Leaves from "./Leaves";
 import Settings from "./Settings";
+import Logo from "../components/navbar/Logo";
 
 export default function RoutesProvider() {
 	return (
@@ -18,7 +19,7 @@ export default function RoutesProvider() {
 						path="*"
 						element={
 							<PrivateRouter>
-								<div className=" h-full  w-full flex flex-row ">
+								<div className="h-full  w-full flex flex-row ">
 									<Navbar />
 									<Routes>
 										<Route path="/" element={<Dashboard />} />
